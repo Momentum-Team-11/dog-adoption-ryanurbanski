@@ -2,24 +2,60 @@ body {
     font-family: "Oswald";
 }
 
-.section1 {
+h1 {
+    /* padding-left: 8px; */
+    border: 10px solid black;
+}
+
+.section-1 {
     background-color: #004175;
-    border-bottom: 5px solid red;
+    border-bottom: 10px solid red;
     border-color: #89DEEF;
     color: white;
-    padding: 1em;
-    padding-left: 30px;
+    /* padding: 1em; */
+    /* padding-left: 30px; */
     font-family: "Open Sans";
 }
 
-.section2 {
-
+img {
+    /* float: left; */
+    width: 300px;
+    height: auto;
+    /* object-fit: cover; */
+    object-fit: contain;
 }
 
-.dogRow {
+ul {
+    border: none;
+    padding: 0px 0px 0px 0px;
+    display: inline;
+}
+
+.tags {
+    background-color: #89DEEF;
+    list-style: none;
+    font-family: "Open Sans";
+    display: inline;
+}
+
+.section-2 {
+    background-color: pink;
+}
+
+.dog-row {
     background-color: red;
+    width: auto;
+    height: 500px;
+    /* padding: 0 0 20 0; */
+    margin: 20px;
 }
 
-.dogContainer {
+.dog-container {
     background-color: blue;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    border-color: black;
+    border: 13px solid black;
+    /* display: inline; */
 }
