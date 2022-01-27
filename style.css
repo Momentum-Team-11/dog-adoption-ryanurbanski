@@ -1,0 +1,11 @@
+body {
+    font-family: "Open Sans";
+}
+
+.section1 {
+    background-color: blue;
+    border-color: red;
+    border-width: medium;
+    color: green;
+    padding: 1em;
+}
