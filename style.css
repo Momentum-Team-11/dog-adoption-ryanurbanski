@@ -1,11 +1,25 @@
 body {
-    font-family: "Open Sans";
+    font-family: "Oswald";
 }
 
 .section1 {
-    background-color: blue;
-    border-color: red;
-    border-width: medium;
-    color: green;
+    background-color: #004175;
+    border-bottom: 5px solid red;
+    border-color: #89DEEF;
+    color: white;
     padding: 1em;
+    padding-left: 30px;
+    font-family: "Open Sans";
+}
+
+.section2 {
+
+}
+
+.dogRow {
+    background-color: red;
+}
+
+.dogContainer {
+    background-color: blue;
 }
