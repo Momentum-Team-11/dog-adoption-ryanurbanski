@@ -28,14 +28,14 @@ img {
 ul {
     border: none;
     padding: 0px 0px 0px 0px;
-    display: inline;
 }
 
 .tags {
+    display: inline-block;
     background-color: #89DEEF;
     list-style: none;
     font-family: "Open Sans";
-    display: inline;
+    
 }
 
 .section-2 {
@@ -43,7 +43,7 @@ ul {
 }
 
 .dog-row {
-    background-color: red;
+    background-color: yellow;
     width: auto;
     height: 500px;
     /* padding: 0 0 20 0; */
@@ -51,11 +51,10 @@ ul {
 }
 
 .dog-container {
+    display: inline-block;
     background-color: blue;
     width: 300px;
     height: auto;
-    display: inline-block;
     border-color: black;
     border: 13px solid black;
-    /* display: inline; */
 }
