@@ -40,6 +40,7 @@ ul {
     margin-block-end: 0;
     padding-inline-start: 0;
 }
+
 li {
     display: inline;
     background-color: #89DEEF;
@@ -64,24 +65,30 @@ li {
     font-family: "Open Sans";
 }
 
+.section-2 {
+    background-color: green;
+}
+
 .dog-container {
     background-color: aquamarine;
 
     padding-bottom: 30px;
     max-width: 800px;
     min-width: none;
-    margin: 0 auto;
+    margin: 0 0;
 }
 
 .grid-container {
-    /* background-color: #004175; */
+    background-color: orange;
     display: grid;
     grid-template-columns: auto auto auto;
     max-width: 1200px;
-    margin: 0 auto;
-    grid-gap: 15px;
+    height:auto;
+    margin-bottom: 80px;
+    grid-gap: 1%;
     padding-left: 40px;
     padding-right: 50px;
+    padding-bottom: 100px
 }
 
 .grid-item {
