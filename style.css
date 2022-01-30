@@ -58,7 +58,7 @@ li {
 .content-container{
     /* background-color: lightcoral; */
     background-color: white;
-    min-width: 700px;
+    min-width: 600px;
     max-width: 1200px;
 }
 
@@ -89,11 +89,10 @@ li {
     grid-template-columns: auto auto auto;
     max-width: 1200px;
     height:auto;
-    margin-bottom: 80px;
     grid-gap: 1%;
     padding-left: 40px;
     padding-right: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .grid-item {
@@ -106,36 +105,63 @@ li {
     flex-wrap: wrap;
 }
 
+h4 {
+    color: white;
+}
+
 .flex-footer-container {
     display:flex;
-    flex: 1 1 1;
-    max-width: 1200px;
+    flex: 1 1 auto;
+    max-width: 100%;
+    justify-content: center;
+    height:100%;
+    padding-bottom: 40px;
+}
+
+.transparent-layer {
+    background-color: rgba(50, 50, 200, .5);
 }
 
 .flex-footbox-1 {
-    background-color: yellow;
-    
+    /* background-color: yellow; */
+    background-image: url("./starter_files/images/donate.jpg");
+    background-size: cover;
+    display:flex;
     flex: 1 1 auto;
-    
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    height:100%;
+    padding: 5em;
+    overflow: hidden;
 }
 
 .flex-footbox-2 {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
+    background-image: url("./starter_files/images/volunteer.jpg");
+    background-size: cover;
+    display:flex;
     flex: 1 1 auto;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    height:100%;
+    padding: 5em;
+    overflow: hidden;
 }
 
 .flex-footbox-3 {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
+    background-image: url("./starter_files/images/location.png");
+    background-size: cover;
+    background: linear-gradient(rgba(50 50 200 .5),rgba(50, 50, 200, .5));
+    display:flex;
     flex: 1 1 auto;
+    max-width: 100%;
+    height:auto;
+    justify-content: center;
+    height:100%;
+    padding: 5em;
+    overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
 
