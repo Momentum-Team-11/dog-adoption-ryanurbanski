@@ -92,7 +92,8 @@ li {
     grid-gap: 1%;
     padding-left: 40px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .grid-item {
@@ -107,61 +108,64 @@ li {
 
 h4 {
     color: white;
+    font-family: "Open Sans";
+    font-size: 1.5em;
+    font-stretch: extra-condensed;
 }
 
-.flex-footer-container {
-    display:flex;
-    flex: 1 1 auto;
-    max-width: 100%;
-    justify-content: center;
-    height:100%;
-    padding-bottom: 40px;
-}
 
-.transparent-layer {
-    background-color: rgba(50, 50, 200, .5);
-}
-
-.flex-footbox-1 {
-    /* background-color: yellow; */
-    background-image: url("./starter_files/images/donate.jpg");
-    background-size: cover;
-    display:flex;
-    flex: 1 1 auto;
-    max-width: 100%;
+.bottom-flexbox {
+    flex-direction: row;
+    display: flex;
     height: auto;
-    justify-content: center;
-    height:100%;
-    padding: 5em;
-    overflow: hidden;
+    margin-bottom: 2%;
 }
 
-.flex-footbox-2 {
-    /* background-color: lightcoral; */
-    background-image: url("./starter_files/images/volunteer.jpg");
-    background-size: cover;
-    display:flex;
+.box1 {
+    background-color: #A6A9F0;
     flex: 1 1 auto;
+    text-align: center;
+    line-height: 225px;
     max-width: 100%;
-    height: auto;
-    justify-content: center;
-    height:100%;
-    padding: 5em;
-    overflow: hidden;
+    background:
+        linear-gradient(
+            rgba(16, 16, 231, 0.45),
+            rgba(16, 16, 231, 0.45)
+        ),
+        url(./starter_files/images/donate.jpg);
+    background-size: 100% 100%;
 }
 
-.flex-footbox-3 {
-    /* background-color: lightseagreen; */
-    background-image: url("./starter_files/images/location.png");
-    background-size: cover;
-    background: linear-gradient(rgba(50 50 200 .5),rgba(50, 50, 200, .5));
-    display:flex;
+.box2 {
+    background-color: #A6A9F0;
     flex: 1 1 auto;
+    text-align: center;
+    line-height: 225px;
     max-width: 100%;
-    height:auto;
-    justify-content: center;
-    height:100%;
-    padding: 5em;
-    overflow: hidden;
+    background:
+        linear-gradient(
+            rgba(16, 16, 231, 0.45),
+            rgba(16, 16, 231, 0.45)
+        ),
+        url(./starter_files/images/volunteer.jpg);
+    background-size: 100% 100%;
 }
+
+.box3 {
+    background-color: #A6A9F0;
+    flex: 1 1 auto;
+    text-align: center;
+    line-height: 225px;
+    max-width: 100%;
+    background:
+        linear-gradient(
+            rgba(16, 16, 231, 0.45),
+            rgba(16, 16, 231, 0.45)
+        ),
+        url(./starter_files/images/location.png);
+    background-size: 100% 100%;
+}
+
+
+
 
