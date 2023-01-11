@@ -1,3 +1,7 @@
+
+**Note:** I'm redoing this project, originally called "dog-adoption-ryanurbanski" from momentum bootcamp to set up as an independant app on AWS Amplify and then route to a custom sub-domain, on either happyvalley.ryu13.com OR happyvalley.rytoast.com (once I get that transfered and set up)
+
+
 # Build a Dog Adoption Site
 
 ## Directions
